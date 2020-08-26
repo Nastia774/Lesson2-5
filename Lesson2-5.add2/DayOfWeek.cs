@@ -8,7 +8,8 @@ namespace Lesson2_5.add2
 {
     class DayOfWeek
     {
-        private string[] day = new string[7] { "Monday", "Tusday", "Wensday", "Thursd", "Friday", "Saturday", "Sunday" };
+        private string[] day = new string[7] 
+        { "Monday", "Tusday", "Wensday", "Thursd", "Friday", "Saturday", "Sunday" };
 
         public string this[int index]
         {

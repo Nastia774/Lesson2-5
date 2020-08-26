@@ -28,9 +28,9 @@ namespace Lesson2_5._4
         {
             for (int i = 0; i < _article.Length; i++)
             {
-                if (nameProduct == _article[i].NameProduct())
+                if (nameProduct == _article[i].NameProduct)
                 {
-                    Console.WriteLine($"Товар {_article[i].NameProduct()}  {_article[i].NameShop()}   {_article[i].Price()}");
+                    Console.WriteLine($"Товар {_article[i].NameProduct}  {_article[i].NameShop}   {_article[i].Price}");
                     break;
                 }
                 else

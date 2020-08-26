@@ -12,23 +12,23 @@ namespace Lesson2_5._4
         string _nameShop;
         double _price;
 
-        public Article(string nameProduct, string nameShop, double price)
+        public string NameProduct
         {
-            _nameProduct = nameProduct;
-            _nameShop = nameShop;
-            _price = price;
+            get { return _nameProduct; }
+            set { _nameProduct = value; }
+
         }
-        public string NameProduct()
+        public string NameShop
         {
-            return _nameProduct;
+            get { return _nameShop; }
+            set { _nameShop = value; }
+
         }
-        public string NameShop()
+        public double Price
         {
-            return _nameShop;
-        }
-        public double Price()
-        {
-            return _price;
+            get { return _price; }
+            set { _price = value; }
+
         }
     }
 }
